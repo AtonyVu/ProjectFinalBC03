@@ -5,30 +5,30 @@ export default function Film() {
     <section class="film container">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <a
+          <button
             class="nav-link active"
             id="dangChieu-tab"
-            data-toggle="tab"
-            href="#dangChieu"
+            data-bs-toggle="tab"
+            data-bs-target="#dangChieu"
             role="tab"
             aria-controls="dangChieu"
             aria-selected="true"
           >
             Đang Chiếu
-          </a>
+          </button>
         </li>
         <li class="nav-item" role="presentation">
-          <a
+          <button
             class="nav-link"
             id="sapChieu-tab"
-            data-toggle="tab"
-            href="#sapChieu"
+            data-bs-toggle="tab"
+            data-bs-target="#sapChieu"
             role="tab"
             aria-controls="sapChieu"
             aria-selected="false"
           >
             Sắp Chiếu
-          </a>
+          </button>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
